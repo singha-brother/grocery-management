@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+    "name": "Grocery"
+}
+
+###
+PATCH http://localhost:3000/api/categories/3
+Content-Type: application/json
+
+{
+    "name": "Grocery",
+    "is_active": true
+}
